@@ -1,0 +1,20 @@
+{
+  "name": "my-gridsome-site",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0",
+    "vuetify": "^2.6.4"
+  },
+  "devDependencies": {
+    "@mdi/font": "^6.6.96",
+    "sass": "^1.49.11",
+    "sass-loader": "^10.2.1",
+    "style-resources-loader": "^1.5.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
