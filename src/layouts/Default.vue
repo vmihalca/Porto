@@ -18,7 +18,7 @@
       </nav>
     </header>
     <slot />
-    <v-footer>
+    <footer>
       <v-card flat class="text-center">
         <v-card-text>
           <v-btn
@@ -38,7 +38,7 @@
           {{ new Date().getFullYear() }} © <strong>Vlad Mihalca</strong>
         </v-card-text>
       </v-card>
-    </v-footer>
+    </footer>
   </div>
 </template>
 
